@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  border: double 3px black;
+  background-color: black;
 }
 
 #main_content {
@@ -7,9 +9,15 @@ body {
   margin:0 auto;
 }
 
+
+
 header {
   text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: darkblue;
+   
 }
+
 
 .team {
   width: 50%;
@@ -19,8 +27,28 @@ header {
 
 .team1 {
   background-color: tomato;
+  font-weight: bold;
+  
+}
+
+#tomato {
+  float: inline-end;
+  height: 150px;
 }
 
 .team2 {
   background-color: plum;
+  font-weight: bold;
+}
+
+#plum {
+  float: inline-end;
+  height: 150px;
+}
+
+footer {
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: darkblue;
+  font-weight: bold;
 }
